@@ -1,0 +1,14 @@
+
+
+<div class="row templates">	
+	<div ng-repeat="template in templates">
+
+	<div class="col-md-4">
+		
+		<img ng-src="img/{{template.images}}">
+		<h4>{{template.price | currency}}</h4>
+		<a class="btn btn-primary btn-block" href="#/templates/{{template.id}}">Details</a>
+	</div>
+</div>
+
+</div>
